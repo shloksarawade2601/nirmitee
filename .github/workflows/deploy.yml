@@ -24,8 +24,8 @@ jobs:
       - name: Deploy via FTP
         uses: SamKirkland/FTP-Deploy-Action@v4.3.4
         with:
-          server: ${{ secrets.FTP_SERVER }}
-          username: ${{ secrets.FTP_USERNAME }}
+          server: 92.249.46.160
+          username: u521604796
           password: ${{ secrets.FTP_PASSWORD }}
           local-dir: ./dist/
-          server-dir: /home/u521604796/domains/nirmiteemitwpu.com/public_html/
+          server-dir: /files/public_html/
