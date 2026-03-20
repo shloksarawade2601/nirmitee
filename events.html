@@ -1,0 +1,210 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nirmitee 26 | All Events</title>
+    <!-- Google Fonts for typography (Inter/Poppins) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar">
+      <div class="nav-container">
+        <div class="logo">
+          <a href="index.html"><img src="/nirmitee-logo.jpg" alt="Nirmitee 2026 Logo" class="nav-logo"></a>
+        </div>
+        <ul class="nav-links">
+          <li><a href="index.html#home">HOME</a></li>
+          <li><a href="about.html">ABOUT US</a></li>
+          <li><a href="events.html" style="color: var(--primary-color);">EVENTS</a></li>
+          <li><a href="index.html#gallery">GALLERY</a></li>
+          <li><a href="index.html#sponsor">SPONSORS</a></li>
+          <li><a href="index.html#contact">CONTACT</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- Main Events Content -->
+    <section class="events-page-section">
+      <div class="section-header" style="margin-top: 100px;">
+        <h2 class="section-title">ALL <span class="highlight">EVENTS</span></h2>
+        <p class="section-subtitle">Discover our comprehensive list of technical and non-technical events.</p>
+      </div>
+
+      <!-- Filter Bar -->
+      <div class="event-filters">
+        <button class="filter-btn active" data-filter="all">All Events</button>
+        <button class="filter-btn" data-filter="tech">Technical</button>
+        <button class="filter-btn" data-filter="non-tech">Non-Technical</button>
+        <button class="filter-btn" data-filter="pre-event">Pre-Events</button>
+      </div>
+
+
+      <div class="events-grid" id="all-events-grid">
+        <!-- Box Cricket -->
+        <div class="event-card" data-category="pre-event">
+          <div class="card-content">
+            <span class="event-badge pre-event">PRE-EVENT</span>
+            <img src="/box_cricket.png" alt="Box Cricket Logo" class="event-card-logo">
+            <h3 class="event-name">Box Cricket</h3>
+            <p class="event-desc">A unique recreational indoor variation of cricket fostering teamwork under pressure.</p>
+            <div class="coordinator-info">
+              <p><strong>Coordinator:</strong> Shivam Patil</p>
+              <p><strong>Phone:</strong> <a href="tel:7410731834">7410731834</a></p>
+            </div>
+            <button class="register-btn btn-secondary" onclick="window.open('https://forms.gle/pBWMJ4GyvGgsZLyL8', '_blank'); event.stopPropagation();">REGISTER NOW</button>
+          </div>
+        </div>
+
+        <!-- Bob The Builder -->
+        <div class="event-card" data-category="tech">
+          <div class="card-content">
+            <span class="event-badge tech">TECH</span>
+            <img src="/bob_the_builder.jpg" alt="Bob The Builder Logo" class="event-card-logo">
+            <h3 class="event-name">Bob The Builder</h3>
+            <p class="event-desc">Explore earthquake-resistant structures and design guidelines for resilient foundations.</p>
+            <div class="coordinator-info">
+              <p><strong>Coordinator:</strong> Shreya Satish Sarsekar</p>
+              <p><strong>Phone:</strong> <a href="tel:8484913343">8484913343</a></p>
+            </div>
+            <button class="register-btn btn-secondary" onclick="window.open('https://forms.gle/sW6sN6Pugs9MH9p76', '_blank'); event.stopPropagation();">REGISTER NOW</button>
+          </div>
+        </div>
+
+        <!-- e-Tendering -->
+        <div class="event-card" data-category="tech">
+          <div class="card-content">
+            <span class="event-badge tech">TECH</span>
+            <img src="/e_tendering.jpg" alt="e-Tendering Logo" class="event-card-logo">
+            <h3 class="event-name">e-Tendering</h3>
+            <p class="event-desc">Gear up business skills by managing and preparing an affordable financial tender.</p>
+            <div class="coordinator-info">
+              <p><strong>Event Head:</strong> Chandrika Gandgale</p>
+              <p><strong>Phone:</strong> <a href="tel:9964392587">9964392587</a></p>
+            </div>
+            <button class="register-btn btn-secondary" onclick="window.open('https://forms.gle/RXs7HMkDXNJDShtS8', '_blank'); event.stopPropagation();">REGISTER NOW</button>
+          </div>
+        </div>
+
+        <!-- TechnoQuiz -->
+        <div class="event-card" data-category="tech">
+          <div class="card-content">
+            <span class="event-badge tech">TECH</span>
+            <img src="/technoquiz.jpg" alt="TechnoQuiz Logo" class="event-card-logo">
+            <h3 class="event-name">TechnoQuiz</h3>
+            <p class="event-desc">Logical and aptitude questions in civil engineering to showcase your intellect.</p>
+            <div class="coordinator-info">
+              <p><strong>Coordinator:</strong> Raj Joshi</p>
+              <p><strong>Phone:</strong> <a href="tel:8668908716">8668908716</a></p>
+            </div>
+            <button class="register-btn btn-secondary" onclick="window.open('https://forms.gle/E2zEiaCCvat3DAv88', '_blank'); event.stopPropagation();">REGISTER NOW</button>
+          </div>
+        </div>
+
+        <!-- Treasure Hunt -->
+        <div class="event-card" data-category="non-tech">
+          <div class="card-content">
+            <span class="event-badge non-tech">NON-TECH</span>
+            <img src="/treasure_hunt.jpg" alt="Treasure Hunt Logo" class="event-card-logo">
+            <h3 class="event-name">Treasure Hunt</h3>
+            <p class="event-desc">Channel your inner Scooby Doo and have fun whilst challenging your intellect.</p>
+            <div class="coordinator-info">
+              <p><strong>Coordinator:</strong> Suchita Asabe</p>
+              <p><strong>Phone:</strong> <a href="tel:9096983648">9096983648</a></p>
+            </div>
+            <button class="register-btn btn-secondary" onclick="window.open('https://forms.gle/D7SqjYX1CK6tkwSQA', '_blank'); event.stopPropagation();">REGISTER NOW</button>
+          </div>
+        </div>
+
+        <!-- Paper Presentation -->
+        <div class="event-card" data-category="tech">
+          <div class="card-content">
+            <span class="event-badge tech">TECH</span>
+            <img src="/paper_presentation.png" alt="Paper Presentation Logo" class="event-card-logo">
+            <h3 class="event-name">Paper Presentation</h3>
+            <p class="event-desc">Accurate and factual research built on the grounds of innovation in engineering technology.</p>
+            <div class="coordinator-info">
+              <p><strong>Coordinator:</strong> Viraj Nandre</p>
+              <p><strong>Phone:</strong> <a href="tel:9404973342">9404973342</a></p>
+            </div>
+            <button class="register-btn btn-secondary" onclick="window.open('https://forms.gle/Ak5MfhbU47CNGSmi9', '_blank'); event.stopPropagation();">REGISTER NOW</button>
+          </div>
+        </div>
+
+        <!-- CV Cruitz -->
+        <div class="event-card" data-category="tech">
+          <div class="card-content">
+            <span class="event-badge tech">TECH</span>
+            <img src="/cv_cruitz.jpg" alt="CV Cruitz Logo" class="event-card-logo">
+            <h3 class="event-name">CV Cruitz</h3>
+            <p class="event-desc">Experience an extremely professional “Hire and Fire process” to face future challenges.</p>
+            <div class="coordinator-info">
+              <p><strong>Coordinator:</strong> Devesh Mirgal</p>
+              <p><strong>Phone:</strong> <a href="tel:+919112730024">+91 91127 30024</a></p>
+            </div>
+            <button class="register-btn btn-secondary" onclick="window.open('https://forms.gle/SqNeUiPg4THAJAqR7', '_blank'); event.stopPropagation();">REGISTER NOW</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Global Sticky Register Button -->
+    <a href="#register" class="sticky-register-btn">
+      <svg viewBox="0 0 24 24" width="24" height="24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" style="margin-right: 4px;"><path d="M11 4H4a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-7"></path><path d="M18.5 2.5a2.121 2.121 0 0 1 3 3L12 15l-4 1 1-4 9.5-9.5z"></path></svg>
+      REGISTER NOW
+    </a>
+
+    <!-- Footer -->
+        <footer id="contact" class="footer">
+      <div class="footer-content">
+        <div class="footer-logo">NIRMITEE<span class="highlight-year">26</span></div>
+        <p class="footer-theme">Rise of India's Megastructures</p>
+        
+        <div class="contact-details" style="margin: 20px 0; line-height: 1.6;">
+          <p><strong>Contact:</strong> Support - <a href="tel:+919607683683" style="color: #fff; text-decoration: none;">+91 9607683683</a></p>
+          <p><strong>Email:</strong> <a href="mailto:nirmittemitwpu2026@gmail.com" style="color: #fff; text-decoration: none;">nirmittemitwpu2026@gmail.com</a></p>
+        </div>
+
+        <div class="footer-links">
+          <a href="https://www.instagram.com/mitwpunirmitee?igsh=MTNveXM1NzE5dHhpdA==" target="_blank">Instagram</a>
+          <a href="https://www.youtube.com/channel/UCHPa5BZ_gfnoGMA6NTk2HfQ" target="_blank">YouTube</a>
+        </div>
+        <p class="copyright">&copy; 2026 Nirmitee. All rights reserved.</p>
+      </div>
+    </footer>
+
+    <!-- Filter Logic -->
+    <script>
+      document.addEventListener('DOMContentLoaded', () => {
+        const filterBtns = document.querySelectorAll('.filter-btn');
+        const eventCards = document.querySelectorAll('.event-card');
+
+        filterBtns.forEach(btn => {
+          btn.addEventListener('click', () => {
+            // Remove active class
+            filterBtns.forEach(b => b.classList.remove('active'));
+            // Add active class
+            btn.classList.add('active');
+
+            const filterValue = btn.getAttribute('data-filter');
+
+            // Filter Grid Events
+            eventCards.forEach(card => {
+              if (filterValue === 'all' || card.getAttribute('data-category') === filterValue) {
+                card.classList.remove('hidden');
+              } else {
+                card.classList.add('hidden');
+              }
+            });
+          });
+        });
+      });
+    </script>
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>

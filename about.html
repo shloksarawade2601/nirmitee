@@ -1,0 +1,360 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About Us | Nirmitee 26</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+    <style>
+      .page-header {
+        padding-top: 150px;
+        padding-bottom: 50px;
+        text-align: center;
+        background-color: var(--bg-light);
+      }
+      .heads-grid {
+        max-width: 1200px;
+        margin: 0 auto 100px auto;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 30px;
+        padding: 0 20px;
+      }
+      .empty-slot {
+        visibility: hidden;
+      }
+      .head-role {
+        font-family: 'Inter', sans-serif;
+        font-size: 0.9rem;
+        color: #666;
+        margin: 5px 0 0 0;
+      }
+      @media (max-width: 768px) {
+        .heads-grid {
+          grid-template-columns: 1fr;
+        }
+        .empty-slot {
+          display: none;
+        }
+      }
+      .head-card {
+        background: #fff;
+        border-radius: 10px;
+        overflow: hidden;
+        box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+        text-align: center;
+        transition: transform 0.3s ease;
+      }
+      .head-card:hover {
+        transform: translateY(-10px);
+      }
+      .head-card img {
+        width: 100%;
+        height: 300px;
+        object-fit: cover;
+        object-position: top;
+      }
+      .head-info {
+        padding: 20px;
+      }
+      .head-name {
+        font-family: 'Poppins', sans-serif;
+        font-size: 1.2rem;
+        font-weight: 700;
+        color: #2b2d31;
+        margin: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar">
+      <div class="nav-container">
+        <div class="logo">
+          <a href="index.html" style="text-decoration: none;">
+            <img src="/nirmitee-logo.jpg" alt="Nirmitee 2026 Logo" class="nav-logo">
+          </a>
+        </div>
+        <ul class="nav-links">
+          <li><a href="index.html#home">HOME</a></li>
+          <li><a href="about.html" class="highlight-text">ABOUT US</a></li>
+          <li><a href="index.html#events">EVENTS</a></li>
+          <li><a href="gallery.html">GALLERY</a></li>
+          <li><a href="sponsors.html">SPONSORS</a></li>
+          <li><a href="index.html#contact">CONTACT</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- Page Header -->
+    <header class="page-header">
+      <div class="section-header" style="margin-bottom: 0;">
+        <h2 class="section-title">MEET OUR <span class="highlight">TEAM</span></h2>
+        <p class="section-subtitle">The brilliant minds behind Nirmitee 26.</p>
+      </div>
+    </header>
+
+    <!-- Heads Grid -->
+    <main>
+      <div class="heads-grid">
+        <div class="empty-slot"></div>
+        <div class="head-card">
+          <img src="/heads/Shantini bokil.jpg" alt="Dr. Shantini Bokil">
+          <div class="head-info">
+            <h3 class="head-name">Dr. Shantini Bokil</h3>
+            <p class="head-role">Program Director</p>
+          </div>
+        </div>
+        <div class="empty-slot"></div>
+        <div class="head-card">
+          <img src="/heads/Salgude sir .jpg" alt="Dr. Rohit Salgude">
+          <div class="head-info">
+            <h3 class="head-name">Dr. Rohit Salgude</h3>
+            <p class="head-role">Convener</p>
+          </div>
+        </div>
+        <div class="empty-slot"></div>
+        <div class="head-card">
+          <img src="/heads/Pravin Minde  4MB.JPG.jpeg" alt="Dr. Pravin Minde">
+          <div class="head-info">
+            <h3 class="head-name">Dr. Pravin Minde</h3>
+            <p class="head-role">Co-Convener</p>
+          </div>
+        </div>
+        <div class="head-card">
+          <img src="/heads/aditya_hole.png" alt="Aditya Hole">
+          <div class="head-info">
+            <h3 class="head-name">Aditya Hole</h3>
+            <p class="head-role">Organising Head</p>
+          </div>
+        </div>
+        <div class="head-card">
+          <img src="/heads/Rucha.jpg.jpeg" alt="Rucha Shirke">
+          <div class="head-info">
+            <h3 class="head-name">Rucha Shirke</h3>
+            <p class="head-role">Organising Co-Head</p>
+          </div>
+        </div>
+        <div class="head-card">
+          <img style="object-fit: contain; object-position: center; width: 100%; height: 300px; background-color: #f4f4f4;" src="/heads/Pratik keswani.png" alt="Pratik Keswani">
+          <div class="head-info">
+            <h3 class="head-name">Pratik Keswani</h3>
+            <p class="head-role">Organising Co-Head</p>
+          </div>
+        </div>
+        <div class="head-card">
+          <img src="/heads/Gautam makhija.png" alt="Gautam Makhija">
+          <div class="head-info">
+            <h3 class="head-name">Gautam Makhija</h3>
+            <p class="head-role">Event Management</p>
+          </div>
+        </div>
+        <div class="head-card">
+          <img src="/nirmitee-logo.jpg" alt="Suyash Gite">
+          <div class="head-info">
+            <h3 class="head-name">Suyash Gite</h3>
+            <p class="head-role">Event Management</p>
+          </div>
+        </div>
+        <div class="head-card">
+          <img src="/heads/Praris patel.jpg.jpeg" alt="Praris Patel">
+          <div class="head-info">
+            <h3 class="head-name">Praris Patel</h3>
+            <p class="head-role">Finance</p>
+          </div>
+        </div>
+        <div class="head-card">
+          <img src="/heads/Shaunak Bakshi.jpeg" alt="Shaunak Bakshi">
+          <div class="head-info">
+            <h3 class="head-name">Shaunak Bakshi</h3>
+            <p class="head-role">Website</p>
+          </div>
+        </div>
+        <div class="head-card">
+          <img src="/heads/Devan patel .png" alt="Devan Patel">
+          <div class="head-info">
+            <h3 class="head-name">Devan Patel</h3>
+            <p class="head-role">Marketing</p>
+          </div>
+        </div>
+        <div class="head-card">
+          <img src="/heads/Abhishek salunkhe.jpg.jpeg" style="object-position: center;" alt="Abhishek Salunkhe">
+          <div class="head-info">
+            <h3 class="head-name">Abhishek Salunkhe</h3>
+            <p class="head-role">Marketing</p>
+          </div>
+        </div>
+        <div class="head-card">
+          <img src="/heads/Sanket Thorat .jpg" alt="Sanket Thorat">
+          <div class="head-info">
+            <h3 class="head-name">Sanket Thorat</h3>
+            <p class="head-role">Registration</p>
+          </div>
+        </div>
+        <div class="head-card">
+          <img src="/heads/Avanti khare.jpg.jpeg" alt="Avanti Khare">
+          <div class="head-info">
+            <h3 class="head-name">Avanti Khare</h3>
+            <p class="head-role">Decoration</p>
+          </div>
+        </div>
+        <div class="head-card">
+          <img src="/nirmitee-logo.jpg" style="object-position: center;" alt="Rajeev Parmar">
+          <div class="head-info">
+            <h3 class="head-name">Rajeev Parmar</h3>
+            <p class="head-role">Decoration</p>
+          </div>
+        </div>
+        <div class="head-card">
+          <img src="/heads/Vedant rathod.png" alt="Vedant Rathod">
+          <div class="head-info">
+            <h3 class="head-name">Vedant Rathod</h3>
+            <p class="head-role">Food</p>
+          </div>
+        </div>
+        <div class="head-card">
+          <img src="/heads/Shubham Jadhav.jpeg" alt="Shubham Jadhav">
+          <div class="head-info">
+            <h3 class="head-name">Shubham Jadhav</h3>
+            <p class="head-role">Food</p>
+          </div>
+        </div>
+        <div class="head-card">
+          <img src="/heads/Suchita asabe.jpg.jpeg" alt="Suchita Asabe">
+          <div class="head-info">
+            <h3 class="head-name">Suchita Asabe</h3>
+            <p class="head-role">Design Head</p>
+          </div>
+        </div>
+        <div class="head-card">
+          <img src="/heads/Samrudhi kadge.jpg.jpeg" alt="Sammrudhhi Kadge">
+          <div class="head-info">
+            <h3 class="head-name">Sammrudhhi Kadge</h3>
+            <p class="head-role">Stage Management</p>
+          </div>
+        </div>
+        <div class="head-card">
+          <img src="/heads/Shreya sarsekar.jpg.jpeg" alt="Shreya Sarsekar">
+          <div class="head-info">
+            <h3 class="head-name">Shreya Sarsekar</h3>
+            <p class="head-role">Stage Management</p>
+          </div>
+        </div>
+        <div class="head-card">
+          <img src="/heads/Yug patel.jpg.jpeg" alt="Yug Patel">
+          <div class="head-info">
+            <h3 class="head-name">Yug Patel</h3>
+            <p class="head-role">Discipline</p>
+          </div>
+        </div>
+        <div class="head-card">
+          <img src="/heads/sumit jadhav.jpeg" alt="Sumit Jadhav" style="object-position: top;">
+          <div class="head-info">
+            <h3 class="head-name">Sumit Jadhav</h3>
+            <p class="head-role">Discipline</p>
+          </div>
+        </div>
+        <div class="head-card">
+          <img src="/heads/Raj joshi.jpg.jpeg" style="object-position: center;" alt="Raj Joshi">
+          <div class="head-info">
+            <h3 class="head-name">Raj Joshi</h3>
+            <p class="head-role">Event Head</p>
+          </div>
+        </div>
+        <div class="head-card">
+          <img src="/heads/devesh mergal.jpeg" alt="Devesh Mirgal">
+          <div class="head-info">
+            <h3 class="head-name">Devesh Mirgal</h3>
+            <p class="head-role">Event Head</p>
+          </div>
+        </div>
+        <div class="head-card">
+          <img src="/heads/Meet Surana.png" alt="Meet Surana">
+          <div class="head-info">
+            <h3 class="head-name">Meet Surana</h3>
+            <p class="head-role">Event Head</p>
+          </div>
+        </div>
+        <div class="head-card">
+          <img src="/heads/Viraj Nandre.jpeg" style="object-position: center;" alt="Viraj Nandre">
+          <div class="head-info">
+            <h3 class="head-name">Viraj Nandre</h3>
+            <p class="head-role">Event Head</p>
+          </div>
+        </div>
+        <div class="head-card">
+          <img src="/heads/shivam patil.jpeg" alt="Shivam Patil">
+          <div class="head-info">
+            <h3 class="head-name">Shivam Patil</h3>
+            <p class="head-role">Event Head</p>
+          </div>
+        </div>
+        <div class="head-card">
+          <img src="/heads/Chandrika Gandgale.png" alt="Chandrika Gandgale">
+          <div class="head-info">
+            <h3 class="head-name">Chandrika Gandgale</h3>
+            <p class="head-role">Event Head</p>
+          </div>
+        </div>
+        <div class="head-card">
+          <img src="/heads/Yuvraj.jpeg" style="object-position: center;" alt="Yuvraj Dhargalkar">
+          <div class="head-info">
+            <h3 class="head-name">Yuvraj Dhargalkar</h3>
+            <p class="head-role">Event Co-Head</p>
+          </div>
+        </div>
+        <div class="head-card">
+          <img src="/heads/Harsh Tiwari.jpeg" alt="Harsh Tiwari">
+          <div class="head-info">
+            <h3 class="head-name">Harsh Tiwari</h3>
+            <p class="head-role">Event Co-Head</p>
+          </div>
+        </div>
+        <div class="head-card">
+          <img src="/heads/Kartik Kalbhor.jpeg" alt="Kartik Kalbhor">
+          <div class="head-info">
+            <h3 class="head-name">Kartik Kalbhor</h3>
+            <p class="head-role">Event Co-Head</p>
+          </div>
+        </div>
+        <div class="head-card">
+          <img src="/heads/aman goyal.png" alt="Aman Goyal" style="object-position: top;">
+          <div class="head-info">
+            <h3 class="head-name">Aman Goyal</h3>
+            <p class="head-role">Event Co-Head</p>
+          </div>
+        </div>
+        <div class="head-card">
+          <img src="/heads/Prajwal Singh.jpeg" style="object-position: center;" alt="Prajwal Singh">
+          <div class="head-info">
+            <h3 class="head-name">Prajwal Singh</h3>
+            <p class="head-role">Event Co-Head</p>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <!-- Footer -->
+        <footer id="contact" class="footer">
+      <div class="footer-content">
+        <div class="footer-logo">NIRMITEE<span class="highlight-year">26</span></div>
+        <p class="footer-theme">Rise of India's Megastructures</p>
+        
+        <div class="contact-details" style="margin: 20px 0; line-height: 1.6;">
+          <p><strong>Contact:</strong> Support - <a href="tel:+919607683683" style="color: #fff; text-decoration: none;">+91 9607683683</a></p>
+          <p><strong>Email:</strong> <a href="mailto:nirmittemitwpu2026@gmail.com" style="color: #fff; text-decoration: none;">nirmittemitwpu2026@gmail.com</a></p>
+        </div>
+
+        <div class="footer-links">
+          <a href="https://www.instagram.com/mitwpunirmitee?igsh=MTNveXM1NzE5dHhpdA==" target="_blank">Instagram</a>
+          <a href="https://www.youtube.com/channel/UCHPa5BZ_gfnoGMA6NTk2HfQ" target="_blank">YouTube</a>
+        </div>
+        <p class="copyright">&copy; 2026 Nirmitee. All rights reserved.</p>
+      </div>
+    </footer>
+  </body>
+</html>
